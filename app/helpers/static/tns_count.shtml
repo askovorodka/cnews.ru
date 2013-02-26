@@ -1,0 +1,10 @@
+<!-- tns-counter.ru -->
+<script type="text/javascript">
+	var img = new Image();
+	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*rbc_ru/ru/CP1251/tmsec=cnews_total/';
+</script>
+<noscript>
+	<img src="http://www.tns-counter.ru/V13a****rbc_ru/ru/CP1251/tmsec=cnews_total/" width="1" height="1" alt="" />
+</noscript>
+<!--/ tns-counter.ru -->
+

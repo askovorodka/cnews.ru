@@ -1,0 +1,4 @@
+.clear {height:1%;}
+.main_wrapper {width:expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) > 1200 ? "1200px" : (((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 1200 ? "1200" : "100%"));}
+.sections_table td div {background:none;}
+.sections_table td  {background:none;}

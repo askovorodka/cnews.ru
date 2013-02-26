@@ -1,0 +1,1 @@
+{if $current_section.section_id != $section.section_id}<option value="{$section.section_id}" class="level_{$level}" {if $current_section.section_parent_id == $section.section_id or $parent_id == $section.section_id or $filter_section == $section.section_id}selected{/if}>{$section.section_name|strip_tags}</option>{/if}

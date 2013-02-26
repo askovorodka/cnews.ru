@@ -1,0 +1,1237 @@
+<!--#if expr="($HTTP_HOST=/cnews\.ru/ || $HTTP_HOST=/www\.cnews\.ru/) && ($DOCUMENT_URI=/\/reviews\/index\.shtml/ || $DOCUMENT_URI=/\/news\/top\/index\.shtml/ || $DOCUMENT_URI=/\/news\/line\/index\.shtml/) && $SERVER_NAME!=/rnd\.cnews\.ru/"-->
+<!--Redtram-->
+	<img src="http://nc.redtram.com/px/80.gif" alt="" width="1" height="1" border="0" /> 
+<!--//Redtram-->
+<!--#endif-->
+
+<!--#if expr="$SERVER_NAME=/rnd.cnews.ru/ && ($DOCUMENT_URI=/\/reviews\/index_science.shtml/ || $DOCUMENT_URI=/\/news\/top\/index_science.shtml/ || $DOCUMENT_URI=/\/news\/line\/index_science.shtml/)"-->
+<!--Redtram-->
+	<img src="http://nc.redtram.com/px/657.gif" alt="" width="1" height="1" border="0" />
+<!--//Redtram-->
+<!--#endif-->
+
+<!--#if expr="($SERVER_NAME!=/gallery.cnews.ru/)"-->
+	<!--#if expr="$DOCUMENT_URI=/^\/index.shtml/ && $HTTP_HOST=/rnd.cnews.ru/" -->
+		<!--begin of Top100--><a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?1183017" alt="Rambler's Top100" width="1" height="1" border="0" /></a><!--end of Top100 code-->
+	<!--#elif expr="$DOCUMENT_URI=/^\/index.shtml/ && $HTTP_HOST=/safe.cnews.ru/" -->
+		<!--begin of Top100--><a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?1202208" alt="Rambler's Top100"  width="1" height="1" border="0" /></a><!--end of Top100 code-->
+	<!--#else -->
+		<!-- Top100 --><a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?271768" alt="" width="1" height="1" border="0" /></a><!-- //Top100 -->
+	<!--#endif -->
+<!--#elif expr="($SERVER_NAME=/gallery.cnews.ru/) && (!$QUERY_STRING)"-->
+	<!--begin of Top100-->
+		<a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?1046566" alt="Rambler's Top100"  width="1" height="1" border="0" /></a>
+	<!--end of Top100 code-->
+<!--#elif expr="($SERVER_NAME=/gallery.cnews.ru/) && ($QUERY_STRING)"-->
+		<!-- Top100 --><a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?271768" alt="" width="1" height="1" border="0"></a><!-- //Top100 -->
+<!--#endif -->
+
+<!--begin of Top100 logo--><a href="http://top100.rambler.ru/top100/"><img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width="88" height="31" border="0" /></a><!--end of Top100 logo -->
+
+<!--Rating@Mail.ru COUNTEr--><a target="_top" href="http://top.mail.ru/jump?from=87601">
+<img src="http://d6.c5.b1.a0.top.list.ru/counter?id=87601;t=69" border="0" height="31" width="38" alt="–ейтинг@Mail.ru"/></a><!--/COUNTER-->
+
+
+<!--#if expr="$SERVER_NAME=/rnd.cnews.ru/" -->
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+	document.write('<a href="http://www.liveinternet.ru/click" '+'target=_blank><img src="http://counter.yadro.ru/hit?t44.5;r'+escape(document.referrer)+((typeof(screen)=='undefined')?'':';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+';'+Math.random()+'" alt="" title="LiveInternet" '+'border=0 width=31 height=31><\/a>')//--></script><!--/LiveInternet-->
+<!--#elif expr="$SERVER_NAME=/gallery.cnews.ru/" -->
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+	document.write('<a href="http://www.liveinternet.ru/click" '+
+	'target=_blank><img src="http://counter.yadro.ru/hit?t44.5;r'+
+	escape(document.referrer)+((typeof(screen)=='undefined')?'':
+	';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+	';'+Math.random()+
+	'" alt="" title="LiveInternet" '+
+	'border=0 width=31 height=31><\/a>')//--></script><!--/LiveInternet-->
+<!--#elif expr="$SERVER_NAME=/spb.cnews.ru/" -->
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+	document.write('<a href="http://www.liveinternet.ru/click" '+
+	'target=_blank><img src="http://counter.yadro.ru/hit?t44.5;r'+
+	escape(document.referrer)+((typeof(screen)=='undefined')?'':
+	';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+	';'+Math.random()+
+	'" alt="" title="LiveInternet" '+
+	'border=0 width=31 height=31><\/a>')//--></script><!--/LiveInternet-->
+<!--#elif expr="$SERVER_NAME=/pdf.cnews.ru/" -->
+	<!--LiveInternet counter--><script type="text/javascript">document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='http://counter.yadro.ru/hit?t44.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=31 height=31 alt='' title='LiveInternet'><\/a>")</script><!--/LiveInternet-->
+<!--#elif expr="$SERVER_NAME=/doc.cnews.ru/" -->
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+		document.write("<a href='http://www.liveinternet.ru/click' "+
+		"target=_blank><img src='http://counter.yadro.ru/hit?t44.5;r"+
+		escape(document.referrer)+((typeof(screen)=="undefined")?"":
+		";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+		screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+		";"+Math.random()+
+		"' alt='' title='LiveInternet' "+
+		"border='0' width='31' height='31'><\/a>")
+	//--></script><!--/LiveInternet-->
+<!--#else -->
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+	document.write('<a href="http://www.liveinternet.ru/click" '+
+	'target=_blank><img src="http://counter.yadro.ru/hit?t44.5;r'+
+	escape(document.referrer)+((typeof(screen)=='undefined')?'':
+	';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+	';i'+escape('∆ж'+document.title.substring(0,80))+';'+Math.random()+
+	'" alt="" title="LiveInternet" '+
+	'border=0 width=31 height=31><\/a>')//--></script><!--/LiveInternet-->
+<!--#endif -->
+
+<!--#if expr="$DOCUMENT_URI=/\/subscribe\/stats\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p36.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p36.gif" alt='count' border='0' width=1 height=1 /></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$SERVER_NAME=/pr.cnews.ru/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p34.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p34.gif" alt='count' border='0' width=1 height=1 /></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$SERVER_NAME=/pdf.cnews.ru/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p4.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p4.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/index.shtml/ && ($HTTP_HOST=/^cnews\.ru/ || $HTTP_HOST=/www\.cnews\.ru/)" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p4.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p4.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/\/promo\/moto\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p4.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p4.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$SERVER_NAME=/edu\.cnews\.ru/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p96.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p96.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$SERVER_NAME=/safe.cnews.ru/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p45.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p45.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script><!--#elif expr="$SERVER_NAME=/safe/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p45.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p45.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script><!--#elif expr="$DOCUMENT_URI=/^\/sap-kongress2004\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p134.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p134.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script><!--#elif expr="$DOCUMENT_URI=/^\/1stSMBforum\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p134.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p134.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+
+
+<!--#elif expr="$DOCUMENT_URI=/funs/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p67.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&rf="+parent.document.referrer+"&rn="+Math.random();
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p67.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+
+
+<!--#elif expr="$DOCUMENT_URI=/^\/glossary\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p203.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p203.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/news\/index.shtml/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p37.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl="+document.URL;
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p37.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script><!--#elif expr="$DOCUMENT_URI=/^\/b2b\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p38.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl="+document.URL;
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p38.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script><!--#elif expr="$DOCUMENT_URI=/^\/funs\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p67.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p67.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script><!--#elif expr="$DOCUMENT_URI=/^\/fun\//" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p67.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p67.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$QUERY_STRING=/^include\=pr_cnews_ru$/" --><script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p34.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p34.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/biz.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p584.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p584.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/telecom.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p585.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p585.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/corp.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p586.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p586.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/safe.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p45.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p45.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/internet.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p587.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p587.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/rnd.cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p589.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random();
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p589.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/spb.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p588.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random();
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p588.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/wifi.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p229.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p229.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/cna.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p573.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p573.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/events.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p591.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p591.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/pr.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p34.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p34.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/edu.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p96.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p96.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/pda.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p590.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p590.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+
+<!--#elif expr="$DOCUMENT_URI=/subscribe\/archive/ && $QUERY_STRING=/t=weekly/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p36.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p36.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/subscribe\/archive/ && $QUERY_STRING=''"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p47.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p47.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/subscribe\/archive/ && $QUERY_STRING=/t=daily/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p47.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p47.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/video\// || $DOCUMENT_URI=/^\/tv\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p202.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p202.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/mag\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p582.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p582.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews(\/technology(\/[0-9]+)?)?\/index.shtml/ && ($HTTP_HOST=/^cnews.ru/ || $HTTP_HOST=/www.cnews.ru/)"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p38.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl="+document.URL;
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p38.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/\/reviews\/free\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p574.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p574.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/reviews\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p575.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p575.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/lib\// && $DOCUMENT_URI!=/^\/reviews\/lib\/face\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p203.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p203.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/lib\/face\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p576.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p576.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/profile\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p577.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p577.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/project\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p578.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p578.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/points\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p579.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p579.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/reviews\/rating\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p580.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p580.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/about\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p592.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p592.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$DOCUMENT_URI=/^\/search\// || $DOCUMENT_URI=/^\/archive\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p583.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p583.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/eng.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p659.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p659.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#elif expr="$HTTP_HOST=/gallery.*cnews.ru/"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p660.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p660.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#else -->
+	<!--#if expr="$DOCUMENT_URI!=/\/news\/line\// && $DOCUMENT_URI!=/\/news\/top\/"-->
+		<script type="text/javascript"><!--skip ();
+		u="count.rbc.ru/p4.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+		n=(na.substring(0,2)=="Mi")?0:1;y="";
+		y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+		y+="' border=0  width=1 height=1 alt='count'>";
+		d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p4.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+		if(!n) { d.write("--"+">"); }//--></script>
+	<!--#endif -->
+<!--#endif -->
+
+<!--#if expr="($HTTP_HOST=/^cnews.ru/ || $HTTP_HOST=/www.cnews.ru/) && $DOCUMENT_URI=/\/news\/line\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p35.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl="+document.URL;
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p35.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#endif -->
+
+<!--#if expr="($HTTP_HOST=/^cnews.ru/ || $HTTP_HOST=/www.cnews.ru/) && $DOCUMENT_URI=/\/news\/top\//"-->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p37.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl="+document.URL;
+y+="' border=0 width=1 height=1 alt=''>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p37.gif" alt="" border="0" width="1" height="1" />
+</noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#endif -->
+
+<!--#if expr="$HTTP_HOST=/^cnews.ru/ || $HTTP_HOST=/www.cnews.ru/" -->
+<!--#if expr="$DOCUMENT_URI=/\/news\/top\//" -->
+<!--#if expr="$news_subtype_hard=1 || $news_subtype_soft=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p632.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p632.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_telecom=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p638.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p638.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_internet=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p629.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p629.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_science=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p635.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p635.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_safe=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p623.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p623.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_biz=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p626.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p626.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_spb=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p641.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p641.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+	<!--#endif -->
+<!--#endif -->
+
+<!--#if expr="$HTTP_HOST=/^cnews.ru/ || $HTTP_HOST=/www.cnews.ru/" -->
+<!--#if expr="$DOCUMENT_URI=/\/news\/line\//" -->
+<!--#if expr="$news_subtype_hard=1 || $news_subtype_soft=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p633.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p633.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_telecom=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p639.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p639.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_internet=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p630.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p630.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_science=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p636.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p636.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_safe=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p624.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p624.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_biz=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p627.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p627.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_spb=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p642.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p642.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+	<!--#endif -->
+<!--#endif -->
+
+<!--#if expr="$HTTP_HOST=/^cnews.ru/ || $HTTP_HOST=/www.cnews.ru/" -->
+	<!--#if expr="$DOCUMENT_URI=/\/reviews\/index.shtml/ && $QUERY_STRING=/([0-9]+\/[0-9]+\/[0-9]+\/[0-9]+)/" -->
+<!--#if expr="$news_subtype_hard=1 || $news_subtype_soft=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p634.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p634.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_telecom=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p640.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p640.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_internet=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p631.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p631.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_science=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p637.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p637.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_safe=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p625.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p625.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_biz=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p628.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p628.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+		<!--#if expr="$news_subtype_spb=1" -->
+			<script type="text/javascript"><!--skip ();
+			u="count.rbc.ru/p643.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+			n=(na.substring(0,2)=="Mi")?0:1;y="";
+			y+="<img src='http://"+u+"?r="+d.referrer+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+			y+="' border=0 width=1 height=1 alt=''>";
+			d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+			<img src="http://count.rbc.ru/p643.gif" alt="" border="0" width="1" height="1" />
+			</noscript><script type="text/javascript"><!--skip ();
+			if(!n) { d.write("--"+">"); }//--></script>
+		<!--#endif -->
+	<!--#endif -->
+<!--#endif -->
+
+<!--#if expr="$DOCUMENT_URI=/^\/index.shtml/" -->
+<!--skip (); SpyLOG f:0211_11 -->
+<!-- SpyLOG -->
+<!--#else -->
+<!--skip (); SpyLOG f:0211_333 -->
+<!-- SpyLOG -->  
+<!--#endif -->
+
+<!-- google analytics -->
+
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/server2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-4";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/security2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-3";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/spb2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-5";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/trade2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-6";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/dms2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-7";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/banks2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-8";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/smb2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-9";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/gov2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-10";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/wireless2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-11";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/telecom2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-12";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/insiders2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-14";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/industry2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-15";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/notebook2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-16";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-17";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/itservice2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-18";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/software2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-19";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/techsec2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-20";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/transport2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-21";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/national2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-22";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/security2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-23";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/payments\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-24";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/smarthouse\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-25";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/networks\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-26";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/trade2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-27";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/banks2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-28";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/gov2006\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-29";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/national2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-31";
+	urchinTracker();
+	</script>
+<!--#endif-->
+<!--#if expr="$DOCUMENT_URI=/\/reviews\/free\/transport2007\//" -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2849230-32";
+	urchinTracker();
+	</script>
+<!--#endif-->
+
+<!--#if  expr="$SERVER_NAME=/telecom.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-9");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+
+<!--#elif expr="$SERVER_NAME=/corp.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-10");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+
+<!--#elif expr="$SERVER_NAME=/safe.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-11");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+
+<!--#elif expr="$SERVER_NAME=/internet.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-12");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$SERVER_NAME=/biz.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-13");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$SERVER_NAME=/events.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-14");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$SERVER_NAME=/retail.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-15");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$SERVER_NAME=/pdf.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-16");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$DOCUMENT_URI=/\/reviews\/technology\//" -->
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+	"http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost +
+	"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-2849230-46");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+	</script>
+
+<!--#elif expr="$SERVER_NAME=/rnd.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-3");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$SERVER_NAME=/doc.cnews.ru/" -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-17");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!--#elif expr="$SERVER_NAME=/smb.cnews.ru/" -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2810769-19");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--#else-->
+<!-- 	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2810769-2");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script> -->
+<!--#endif-->
+
+<!-- //google analytics -->
+<!--#if expr="$SERVER_NAME=/spo.cnews.ru/" -->
+	<!--LiveInternet counter-->
+	<script type="text/javascript">
+		<!--
+		document.write("<a href='http://www.liveinternet.ru/click' "+
+		"target=_blank><img src='http://counter.yadro.ru/hit?t44.5;r"+
+		escape(document.referrer)+((typeof(screen)=="undefined")?"":
+		";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+		screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+		";"+Math.random()+
+		"' alt='' title='LiveInternet' "+
+		"border=0 width=31 height=31><\/a>")
+		//-->
+	</script>
+	<!--/LiveInternet-->
+	
+	<script type="text/javascript"><!--skip ();
+		u="count.rbc.ru/p45.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+		n=(na.substring(0,2)=="Mi")?0:1;y="";
+		y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+		y+="' border=0  width=1 height=1 alt='count'>";
+		d.write(y);if(!n) { d.write("<"+"!--"); }//-->
+	</script>
+	<noscript><img src="http://count.rbc.ru/p45.gif" alt='count' border='0' width=1 height=1></noscript>
+	<script type="text/javascript"><!--skip ();
+		if(!n) { d.write("--"+">"); }//-->
+	</script>
+<!--#endif-->
+
+<!--#if expr="$SERVER_NAME=/rev.cnews.ru/" -->
+<script type="text/javascript"><!--skip ();
+u="count.rbc.ru/p4.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+d.referrer+"&hash="+d.location.hash.substr(1)+"&rf="+parent.document.referrer+"&rn="+Math.random()+"&rurl=http://nothing";
+y+="' border=0  width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript><img src="http://count.rbc.ru/p4.gif" alt='count' border='0' width=1 height=1></noscript><script type="text/javascript"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+<!--#endif-->
+
+
+<!-- (C)2006 Gemius SA - gemiusAudience / cnews.ru / Home Page -->
+<script type="text/javascript">
+var pp_gemius_identifier = new String('zU1AfSbSayuo50oc7LARgpdSrmIUshtQBifnhSkR0KD.n7');
+</script>
+<script type="text/javascript" src="http://www.cnews.ru/inc/js/xgemius.js"></script>
+<!--// (C)2006 Gemius SA - gemiusAudience / cnews.ru / Home Page -->
+
+<!-- google analytics -->
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-2810769-2");
+	pageTracker._setDomainName(".cnews.ru");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+<!-- //google analytics -->

@@ -1,0 +1,84 @@
+/* стили админки 05.12.2012 */
+
+#btn_logout { margin-left:10px; margin-right:10px; }
+
+div.layout { position:absolute; z-index:55; border:1px solid black; margin-top:30px; background-color:#fff; width:1000px; height:550px; }
+div.container { position:relative; width:1000px; height:550px; }
+div.container .iframe_div	{ position:absolute; left:0px; height:0px; z-index:55; }
+div.container .iframe_div iframe { width:1000px; height:550px; }
+div.container .btn_div	{ position:absolute; right:0px; height:0px; z-index:60; padding-top:15px; padding-right:25px; }
+
+.iframe_tables{ width:700px; height:500px; border:1px solid black; position:absolute; z-index:55; margin-top:20px; }
+
+.clear{clear:both;}
+label.children_sections{ cursor:pointer!important; }
+
+#auto_save {position:absolute; width:240px; height:35px; position:fixed; right:10px; bottom:10px; color:green; display:none;}
+#sections input{ width:20px; float:left; }
+UL.sections{ list-style-type:none; }
+ul.level1, ul.level2, ul.level3 {display:none;}
+div.logout {
+	margin:25px 15px;
+}
+table.th_clear th { border-top:none!important; }
+.entities_block { width:500px; clear:both;}
+
+textarea.table_source_code{ width: 510px; height:380px; }
+
+td.td_title {text-align:center;}
+
+div.item_status{
+	width:10px;
+	height:10px;
+	background-color:green;
+}
+
+table.table tr.disabled td {color:#999;}
+
+#form_login {width:410px; margin-top:15%; margin-left:30%; //margin-left:0%;}
+
+iframe {border-width: 1px!important;}
+.left_menu{width:190px; margin:35px 10px; float:left;}
+.content {/*padding:25px 10px;*/ width:81%; float:left;}
+.content table.table {}
+.submenu{}
+.sub_active a {color:#555;}
+.add_form {width:70%;}
+.add_form textarea, .add_form input, .add_form select{width:90%;}
+.add_form button{display:block;}
+.add_form .check{ width:20px; }
+.select_date,.colorpicker{ width: 140px!important; }
+label.valid {
+  height: 24px;
+  background: url(/inc/img/icons/valid.png) center center no-repeat;
+  text-indent: -9999px;
+}
+label.error, label.error_login {
+  font-weight: normal;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 0px;
+}
+
+label.error_login{width:350px!important;}
+
+table.headers_table{  }
+table.headers_table input.input-large { width: 99%; }
+
+ul.headers_checkbox { list-style-type:none; }
+ul.headers_checkbox li { line-height:25px; }
+ul.headers_checkbox li input{ margin-right:7px; margin-top:0px; }
+ul.headers_checkbox li lable{ margin-left:10px; }
+
+table.reviews_table { width: 70%; }
+table.reviews_table td{ padding:5px; }
+table#headers_table_sort td label { display: inline;}
+div.reviews_types {margin: 25px 0;}
+div.reviews_types_checked_block { width: 70%; border:1px solid #f0f0f0; clear:both; display:block; height:100px; margin-bottom:1%; overflow:auto; padding:10px;}
+div.reviews_types_checked_block ul {list-style-type:none; margin:0px; padding:0px;}
+div.reviews_types_checked_block ul li { clear:both; }
+div.reviews_types_checked_block ul li input { float:left;}
+div.reviews_types_checked_block ul li label { float:left; margin-left:10px; width:90%; }
+.tab-content {overflow:hidden;}
+label.label_disabled { color: #999; }
+.active_user {position:absolute; z-index:50; right:10px; top:5px; color:green; text-decoration:underline;}
